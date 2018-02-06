@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="149.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contohjavafx.ContohFXML">
+   <children>
+      <TextField fx:id="txtName" layoutX="181.0" layoutY="14.0" prefHeight="26.0" prefWidth="332.0" promptText="fill name" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="19.0" prefHeight="16.0" prefWidth="160.0" text="Name" />
+      <Button fx:id="btnClick" layoutX="524.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnClickClicked" prefHeight="26.0" prefWidth="67.0" text="Click" />
+      <Label fx:id="lblHello" layoutX="8.0" layoutY="50.0" prefHeight="94.0" prefWidth="581.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <font>
+            <Font name="Arial" size="64.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
